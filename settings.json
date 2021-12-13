@@ -1,0 +1,15 @@
+{
+    "editor.fontSize": 20,
+    "editor.minimap.enabled": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.esline" : true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "C_Cpp.default.includePath": [
+        "../lib/openal-soft/include"
+    ],
+    "workbench.colorTheme": "Visual Studio Dark",
+    "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": false,
+    "files.autoSave": "afterDelay",
+    "editor.autoClosingBrackets": "never"
+}
