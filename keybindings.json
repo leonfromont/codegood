@@ -1,37 +1,65 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "ctrl+j",
-        "command": "workbench.action.tasks.runTask",
-        "args" : "Fast Build"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "workbench.action.tasks.runTask",
-        "args" : "Launch"
-    },
-    {
-        "key": "ctrl+shift+q",
-        "command": "workbench.action.closeOtherEditors"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.tasks.build"
-    },
-    {
-        "key": "ctrl+shift+h",
-        "command": "workbench.action.navigateLeft"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "workbench.action.navigateRight"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "workbench.action.navigateUp"
-    },
-    {
-        "key": "ctrl+shift+j",
-        "command": "workbench.action.navigateDown"
-    }
+  {
+      "key": "ctrl+n",
+      "command": "workbench.action.tasks.runTask",
+      "args" : "Fast Build"
+  },
+  {
+      "key": "ctrl+l",
+      "command": "workbench.action.tasks.runTask",
+      "args" : "Launch"
+  },
+  {
+      "key": "ctrl+shift+q",
+      "command": "workbench.action.closeOtherEditors"
+  },
+  {
+      "key": "ctrl+shift+b",
+      "command": "workbench.action.tasks.build"
+  },
+  {
+      "key": "ctrl+shift+h",
+      "command": "workbench.action.navigateLeft"
+  },
+  {
+      "key": "ctrl+shift+l",
+      "command": "workbench.action.navigateRight"
+  },
+  {
+      "key": "ctrl+shift+k",
+      "command": "workbench.action.navigateUp"
+  },
+  {
+      "key": "ctrl+shift+j",
+      "command": "workbench.action.navigateDown"
+},
+{
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenNavigatePrevious"
+},
+{
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext"
+},
+{
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+},
+{
+    "key": "down",
+    "command": "-selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+},
+{
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+},
+{
+    "key": "up",
+    "command": "-selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+}
 ]
