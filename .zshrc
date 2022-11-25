@@ -103,3 +103,12 @@ alias getclipboard="xclip -selection clipboard -o"
 alias setclipboard="xclip -sel clip"
 alias stat="git status"
 alias push="git push"
+alias cat=batcat
+
+# vi mode for shell
+set -o vi
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
