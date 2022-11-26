@@ -3,6 +3,8 @@
 Set-PSReadlineOption -EditMode v
 Set-PSReadLineOption -ViModeIndicator Prompt
 
+import-module posh-git
+
 function gcam {
     param([String] $message)
     git commit -a -m $message
