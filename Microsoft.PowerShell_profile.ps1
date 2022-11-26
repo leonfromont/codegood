@@ -1,4 +1,7 @@
 # put in %USERPROFILE/WindowsPowershell
+
+Set-PSReadlineOption -EditMode v
+
 function gcam {
     param([String] $message)
     git commit -a -m $message
