@@ -1,6 +1,7 @@
 # put in %USERPROFILE/WindowsPowershell
 
 Set-PSReadlineOption -EditMode v
+Set-PSReadLineOption -ViModeIndicator Prompt
 
 function gcam {
     param([String] $message)
