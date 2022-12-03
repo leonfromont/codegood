@@ -1,0 +1,10 @@
+snap install slack
+sudo apt install inkscape
+sudo apt install git
+sudo apt install flameshot
+sudo apt install batcat
+
+chrome get off website
+1password get off website
+
+chrome close other tabs extension
