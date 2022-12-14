@@ -1,4 +1,7 @@
 # put in %USERPROFILE/WindowsPowershell
+# cp ./Microsoft.Powershell_profile.ps1 $env:USERPROFILE\Documents\WindowsPowershell\Microsoft.PowerShell_profile.ps1
+# TODO: why no symlinks work
+# New-Item -ItemType SymbolicLink -Path ./Microsoft.Powershell_profile.ps1 -Target $env:USERPROFILE\Documents\WindowsPowershell\Microsoft.PowerShell_profile.ps1
 
 Set-PSReadlineOption -EditMode v
 Set-PSReadLineOption -ViModeIndicator Prompt
@@ -16,6 +19,11 @@ function stat {
 
 function push {
     git push
+}
+
+function gdc {
+    git add --all
+    git commit -a -m date
 }
 
 # https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_character_encoding?view=powershell-7.2
