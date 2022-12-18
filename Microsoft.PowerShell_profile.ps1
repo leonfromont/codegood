@@ -1,7 +1,7 @@
 # put in %USERPROFILE/WindowsPowershell (or run install.ps1)
 
 Set-PSReadlineOption -EditMode v
-Set-PSReadLineOption -ViModeIndicator Prompt
+Set-PSReadLineOption -ViModeIndicator None
 
 import-module posh-git
 
