@@ -1,4 +1,4 @@
-# put in %USERPROFILE/WindowsPowershell
+# put in %USERPROFILE/WindowsPowershell (or run install.ps1)
 
 Set-PSReadlineOption -EditMode v
 Set-PSReadLineOption -ViModeIndicator Prompt
@@ -16,6 +16,11 @@ function stat {
 
 function push {
     git push
+}
+
+function gdc {
+    git add --all
+    git commit -a -m date
 }
 
 # https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_character_encoding?view=powershell-7.2
