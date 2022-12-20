@@ -104,6 +104,8 @@ alias setclipboard="xclip -sel clip"
 alias stat="git status"
 alias push="git push"
 alias cat=batcat
+alias gl="git commit -am "`date`""
+
 
 # vi mode for shell
 set -o vi
