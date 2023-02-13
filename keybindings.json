@@ -61,5 +61,9 @@
     "key": "up",
     "command": "-selectPrevSuggestion",
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+},
+{
+    "key": "alt+s",
+    "command": "workbench.action.closeSidebar"
 }
 ]
