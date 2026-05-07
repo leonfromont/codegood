@@ -65,5 +65,17 @@
 {
     "key": "alt+s",
     "command": "workbench.action.closeSidebar"
+},
+{
+    "key": "ctrl+shift+d",
+    "command": "workbench.action.maximizeEditor"
+},
+{
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+        "text": "\\\r\n"
+    },
+    "when": "terminalFocus"
 }
 ]

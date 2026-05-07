@@ -105,6 +105,7 @@ alias stat="git status"
 alias push="git push"
 alias cat=batcat
 alias gl="git commit -am "`date`""
+alias claude="claude --continue --dangerously-skip-permissions"
 
 
 # vi mode for shell
@@ -114,3 +115,7 @@ set -o vi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Automatically use default Node.js version on shell startup
+nvm use default --silent
+export PATH="$HOME/.local/bin:$PATH"
