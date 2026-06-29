@@ -106,6 +106,8 @@ alias push="git push"
 alias cat=batcat
 alias gl="git commit -am "`date`""
 alias claude="claude --continue --dangerously-skip-permissions"
+alias printy="lp -d MP-C6003"   # printy file.pdf -> print to the MP-C6003
+alias o="xdg-open"              # o .  /  o ~/Downloads -> open in file explorer
 
 
 # vi mode for shell
@@ -119,3 +121,5 @@ export NVM_DIR="$HOME/.nvm"
 # Automatically use default Node.js version on shell startup
 nvm use default --silent
 export PATH="$HOME/.local/bin:$PATH"
+
+. "$HOME/.local/share/../bin/env"
